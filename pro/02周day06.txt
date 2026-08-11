@@ -1,0 +1,29 @@
+1，设备采集的数据 入库
+2，数据流程走通
+3，准备工作：容器
+sudo docker ps 查看正运行的容器
+sudo docker ps -a 查看所有的容器
+sudo docker stop mysql8_1 停止指定的容器
+sudo docker rm  mysql8_1 删除指定的容器
+sudo docker ps -a 查看所有的容器
+sudo docker start  mysql8 启动指定的容器
+sudo docker start  emqx 启动指定的容器
+
+4，需求拆解
+先建数据库，建库建表，模拟数据，测试
+完成后端，测试
+完成mqtt的接入，测试
+完成前端页面的展示
+
+4，版本管理：
+git
+
+
+ssh-keygen -t rsa -C "zhangsan@126.com"
+
+cat ~/.ssh/id_rsa.pub
+
+上传密钥：
+粘贴公钥到密钥栏中并创建
+
+git clone git@codehub.devcloud.cn-north-4.huaweicloud.com:99173fff614d4c148e932b6a0ec0f818/demo01helloword.git
