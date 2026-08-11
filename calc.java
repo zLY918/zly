@@ -1,6 +1,6 @@
 public class calc {
-    //求和函数
+    //求和函数 Windows修改
     public static int add(int a,int b){
-        return a + b;
+        return a - b;
     }
 }
